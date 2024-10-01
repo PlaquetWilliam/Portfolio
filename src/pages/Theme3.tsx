@@ -1,0 +1,40 @@
+import { Link } from 'react-router-dom'
+
+import { Footer } from "../components/Footer";
+
+import ChatGpt from '../img/ChatGpt.png'
+import Gemini from '../img/Gemini.png'
+
+export const Theme3 = () => {
+    return (
+    <main>
+        <section className="flex justify-center items-center w-full py-20">
+            <div className='flex flex-col justify-center items-center w-1/2'>
+                <h1 className="text-6xl font-bold">Apprentissage du domaine</h1>
+                <p className="mt-4 text-xl font-medium text-center">
+                    Utilisation de plusieurs sites d'Intelligence Artificiel comme Intel qui m'ont permis d'en apprendre plus sur ce domaine qui m'intéresse 
+                    non pas pour des projets professionnel mais pour des loisirs.
+                </p>
+                <div className='flex mt-6'>
+                    <Link to='/theme2' className="mr-6 py-2 px-6 font-medium text-white bg-blue-500 rounded-lg">Voir langage C#</Link>
+                    <Link to='/theme4' className="py-2 px-6 font-medium text-white bg-blue-500 rounded-lg">Voir modélisation 3D</Link>
+                </div>
+            </div>
+        </section>
+
+        <section className="flex flex-col items-center w-full pb-20 bg-white">
+            <div className='flex justify-around w-full'>
+                <div className='w-2/6'>
+                    <img src={ ChatGpt } alt="" className='rounded-lg'/>
+                </div>
+
+                <div className='w-2/6'>
+                    <img src={ Gemini } alt="" className='rounded-lg'/>
+                </div>
+            </div>
+        </section>
+
+        <Footer/>
+    </main>
+    )
+}
