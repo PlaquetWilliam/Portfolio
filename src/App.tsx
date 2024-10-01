@@ -23,7 +23,7 @@ function App() {
       </header>
 
       <Routes>
-        <Route path='/portfolio' element={ <Home/> }/>
+        <Route path='/' element={ <Home/> }/>
         <Route path='/skills' element={ <Skills/> }/>
         <Route path='/experiences' element={ <Experiences/> }/>
         <Route path='/contact' element={ <Contact/> }/>
