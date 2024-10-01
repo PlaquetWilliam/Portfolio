@@ -22,7 +22,7 @@ export const Home = () => {
                     <div className="content">
                         <h1 className="text-6xl font-bold">William Plaquet</h1>
                         <p className="mt-2 text-2xl font-bold">Développeur <span className="text-blue-500 border-b-4 border-blue-500">Full-Stack</span></p>
-                        <a href="CV.pdf" download="CV-PLAQUET.pdf">
+                        <a href="{`${process.env.PUBLIC_URL}/CV.pdf`}" download="CV-PLAQUET.pdf">
                             <button className="mt-6 py-2 px-6 font-medium text-white bg-blue-500 rounded-lg">Télécharger le CV</button>
                         </a>
                     </div>
