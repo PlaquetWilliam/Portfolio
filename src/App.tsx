@@ -15,7 +15,7 @@ function App() {
         <h1 className='text-4xl font-bold'>William.</h1>
 
         <nav>
-          <NavLink className='mr-10 p-2 font-medium' style={({isActive}) => ({color: isActive ? 'rgb(59 130 246)' : '#000000'})} to={ '/portfolio' }>Présentation</NavLink>
+          <NavLink className='mr-10 p-2 font-medium' style={({isActive}) => ({color: isActive ? 'rgb(59 130 246)' : '#000000'})} to={ '/' }>Présentation</NavLink>
           <NavLink className='mr-10 p-2 font-medium' style={({isActive}) => ({color: isActive ? 'rgb(59 130 246)' : '#000000'})} to={ '/skills' }>Compétences</NavLink>
           <NavLink className='mr-10 p-2 font-medium' style={({isActive}) => ({color: isActive ? 'rgb(59 130 246)' : '#000000'})} to={ '/experiences' }>Expériences</NavLink>
           <NavLink className='mr-10 py-2 px-6 font-medium rounded-full' style={({isActive}) => ({ backgroundColor: isActive ? 'rgb(59 130 246)' : '#ffffff', color: isActive ? '#ffffff' : 'rgb(59 130 246)', border: isActive ? '2px solid transparent' : '2px solid rgb(59 130 246)'})} to={ '/contact' }>Me contacter</NavLink>
@@ -23,7 +23,7 @@ function App() {
       </header>
 
       <Routes>
-        <Route path='/portfolio' element={ <Home/> }/>
+        <Route path='/' element={ <Home/> }/>
         <Route path='/skills' element={ <Skills/> }/>
         <Route path='/experiences' element={ <Experiences/> }/>
         <Route path='/contact' element={ <Contact/> }/>
