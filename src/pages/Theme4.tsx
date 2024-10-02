@@ -14,7 +14,7 @@ export const Theme4 = () => {
                 <p className="mt-4 text-xl font-medium text-center">
                     Logiciel de modélisation 3D performant avec beaucoup de fonctionnalités. J'ai pu effectuer plusieurs projets 
                     grâce à ce logiciel comme deux ci-dessous. J'ai puisé principalement sur le site officiel de Blender qui permet 
-                    de faire des modèles 3D basique comme complexes.
+                    de faire des modèles 3D basique comme complexes (Voici ci-dessous quelque uns de mes projets).
                 </p>
                 <div className='flex mt-6'>
                     <Link to='/theme3' className="mr-6 py-2 px-6 font-medium text-white bg-blue-500 rounded-lg">Voir intélligence artificielle</Link>
