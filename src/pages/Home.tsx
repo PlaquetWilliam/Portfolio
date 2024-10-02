@@ -25,7 +25,7 @@ export const Home = () => {
                         <h1 className="text-6xl font-bold">William Plaquet</h1>
                         <p className="mt-2 text-2xl font-bold">Développeur <span className="text-blue-500 border-b-4 border-blue-500">Full-Stack</span></p>
                         <div className='flex'>
-                            <a href="{`${process.env.PUBLIC_URL}/CV.pdf`}" download="CV-PLAQUET.pdf">
+                            <a href={`${process.env.PUBLIC_URL}/CV.pdf`} download="CV-PLAQUET.pdf">
                                 <button className="mt-6 mr-6 py-2 px-6 font-medium text-white bg-blue-500 rounded-lg transition duration-150 ease-out hover:bg-blue-600">Télécharger le CV</button>
                             </a>
                             <a href="https://www.linkedin.com/in/william-plaquet-9b6682210/" target='blank' className="flex justify-center items-center mt-6 mr-6 p-2 font-medium text-white bg-blue-500 rounded-lg transition duration-150 ease-out hover:bg-blue-600"><CiLinkedin className='text-2xl'/></a>

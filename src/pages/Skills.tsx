@@ -24,7 +24,7 @@ export const Skills = () => {
                     familiarisé avec les méthodes agiles de gestion de projet et j'ai acquis une grande rigueur 
                     dans mon travail.
                 </p>
-                <a href="{`${process.env.PUBLIC_URL}/Tableau-de-synthèse-William-Plaquet.pdf" download="Tableau-de-synthèse-William-Plaquet.pdf">
+                <a href={`${process.env.PUBLIC_URL}/Tableau-de-synthèse-William-Plaquet.pdf`} download="Tableau-de-synthèse-William-Plaquet.pdf">
                     <button className="mt-6 py-2 px-6 font-medium text-white bg-blue-500 rounded-lg transition duration-150 ease-out hover:bg-blue-600">Télécharger le tableau de synthèse</button>
                 </a>
             </div>
