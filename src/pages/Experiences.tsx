@@ -59,6 +59,19 @@ export const Experiences = () => {
                         {/* Flèche pointant vers la gauche */}
                         <div className="absolute top-[22px] left-[20px] w-0 h-0 border-solid border-[10px] border-transparent border-r-[#e9e9e9]"></div>
                     </div>
+
+                    {/* Bloc gauche */}
+                    <div className="relative w-1/2 px-[40px] py-[10px] left-0">
+                        <div className="relative bg-[#ffffff] p-6 rounded-lg border-4 border-[#e9e9e9]">
+                            <h1 className="text-4xl font-bold mb-4">Bachelor Concepteur Développeur D'application</h1>
+                            <h2 className="text-2xl font-bold">Bac+3 étude supérieur</h2>
+                            <h2 className="text-1xl font-bold mb-4">2024 - 2025</h2>
+                            <p className="font-medium">Recherche d'une entreprise pouvant accueillir un alternant Concepteur Développeur D'application.</p>
+                        </div>
+                        <div className="absolute w-[25px] h-[25px] bg-[#ffffff] border-4 border-blue-500 top-[20px] right-[-12px] rounded-full z-10"></div>
+                        {/* Flèche pointant vers la droite */}
+                        <div className="absolute top-[22px] right-[20px] w-0 h-0 border-solid border-[10px] border-transparent border-l-[#e9e9e9]"></div>
+                    </div>
                 </div>
             </section>
 
