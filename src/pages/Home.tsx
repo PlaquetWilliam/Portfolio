@@ -10,6 +10,8 @@ import { FaVuejs } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { FaNode } from "react-icons/fa";
 import { FaLaravel } from "react-icons/fa";
+import { CiLinkedin } from "react-icons/ci";
+import { SiIndeed } from "react-icons/si";
 
 import Profil from '../img/Profil.png'
 
@@ -18,13 +20,17 @@ export const Home = () => {
     <main>
         <section className="bg-[url('img/Background.png')]">
             <div className="flex w-full h-[70vh]">
-                <div className="left flex flex-col justify-center items-center w-2/4 h-full">
-                    <div className="content">
+                <div className="left flex justify-center items-center w-2/4 h-full">
+                    <div className='flex flex-col'>
                         <h1 className="text-6xl font-bold">William Plaquet</h1>
                         <p className="mt-2 text-2xl font-bold">Développeur <span className="text-blue-500 border-b-4 border-blue-500">Full-Stack</span></p>
-                        <a href="{`${process.env.PUBLIC_URL}/CV.pdf`}" download="CV-PLAQUET.pdf">
-                            <button className="mt-6 py-2 px-6 font-medium text-white bg-blue-500 rounded-lg">Télécharger le CV</button>
-                        </a>
+                        <div className='flex'>
+                            <a href="{`${process.env.PUBLIC_URL}/CV.pdf`}" download="CV-PLAQUET.pdf">
+                                <button className="mt-6 mr-6 py-2 px-6 font-medium text-white bg-blue-500 rounded-lg transition duration-150 ease-out hover:bg-blue-600">Télécharger le CV</button>
+                            </a>
+                            <a href="https://www.linkedin.com/in/william-plaquet-9b6682210/" target='blank' className="flex justify-center items-center mt-6 mr-6 p-2 font-medium text-white bg-blue-500 rounded-lg transition duration-150 ease-out hover:bg-blue-600"><CiLinkedin className='text-2xl'/></a>
+                            <a href="https://profile.indeed.com/?hl=fr_FR&co=FR&from=gnav-homepage" target='blank' className="flex justify-center items-center mt-6 p-2 font-medium text-white bg-blue-500 rounded-lg transition duration-150 ease-out hover:bg-blue-600"><SiIndeed className='text-2xl'/></a>
+                        </div>
                     </div>
                 </div>
 
@@ -67,30 +73,30 @@ export const Home = () => {
             <h1 className="mb-20 text-6xl font-bold">Veille Technologique</h1>
 
             <div className='flex justify-around mb-20 w-full'>
-                <div className='flex flex-col items-center p-10 w-2/6 bg-[#f1f1f1]'>
+                <div className='flex flex-col items-center p-10 w-2/6 bg-white rounded-3xl shadow-2xl'>
                     <h1 className='mb-6 text-xl font-bold'>Thème 1</h1>
                     <p className='font-medium'>Développement Web</p>
-                    <Link to='/theme1' className="mt-6 py-2 px-6 font-medium text-white bg-blue-500 rounded-lg">Voir</Link>
+                    <Link to='/theme1' className="mt-6 py-2 px-6 font-medium text-white bg-blue-500 rounded-lg transition duration-150 ease-out hover:bg-blue-600">Voir</Link>
                 </div>
 
-                <div className='flex flex-col items-center p-10 w-2/6 bg-[#f1f1f1]'>
+                <div className='flex flex-col items-center p-10 w-2/6 bg-white rounded-3xl shadow-2xl'>
                     <h1  className='mb-6 text-xl font-bold'>Thème 2</h1>
                     <p className='font-medium'>Langage C#</p>
-                    <Link to="/theme2" className="mt-6 py-2 px-6 font-medium text-white bg-blue-500 rounded-lg">Voir</Link>
+                    <Link to="/theme2" className="mt-6 py-2 px-6 font-medium text-white bg-blue-500 rounded-lg transition duration-150 ease-out hover:bg-blue-600">Voir</Link>
                 </div>
             </div>
 
             <div className='flex justify-around w-full'>
-                <div className='flex flex-col items-center p-10 w-2/6 bg-[#f1f1f1]'>
+                <div className='flex flex-col items-center p-10 w-2/6 bg-white rounded-3xl shadow-2xl'>
                     <h1 className='mb-6 text-xl font-bold'>Thème 3</h1>
                     <p className='font-medium'>Intelligence Artificielle</p>
-                    <Link to="/theme3" className="mt-6 py-2 px-6 font-medium text-white bg-blue-500 rounded-lg">Voir</Link>
+                    <Link to="/theme3" className="mt-6 py-2 px-6 font-medium text-white bg-blue-500 rounded-lg transition duration-150 ease-out hover:bg-blue-600">Voir</Link>
                 </div>
 
-                <div className='flex flex-col items-center p-10 w-2/6 bg-[#f1f1f1]'>
+                <div className='flex flex-col items-center p-10 w-2/6 bg-white rounded-3xl shadow-2xl'>
                     <h1  className='mb-6 text-xl font-bold'>Thème 4</h1>
                     <p className='font-medium'>Modélisation 3D</p>
-                    <Link to="/theme4" className="mt-6 py-2 px-6 font-medium text-white bg-blue-500 rounded-lg">Voir</Link>
+                    <Link to="/theme4" className="mt-6 py-2 px-6 font-medium text-white bg-blue-500 rounded-lg transition duration-150 ease-out hover:bg-blue-600">Voir</Link>
                 </div>
             </div>
         </section>
