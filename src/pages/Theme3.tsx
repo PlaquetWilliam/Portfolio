@@ -12,8 +12,8 @@ export const Theme3 = () => {
             <div className='flex flex-col justify-center items-center w-1/2'>
                 <h1 className="text-6xl font-bold">Apprentissage du domaine</h1>
                 <p className="mt-4 text-xl font-medium text-center">
-                    Utilisation de plusieurs sites d'Intelligence Artificiel comme Intel qui m'ont permis d'en apprendre plus sur ce domaine qui m'intéresse 
-                    non pas pour des projets professionnel mais pour des loisirs.
+                    L'utilisation de plusieurs sites sur l'intelligence artificielle, comme Intel, m'a permis d'en apprendre davantage sur ce domaine 
+                    qui m'intéresse, non pas pour des projets professionnels mais pour des loisirs.
                 </p>
                 <div className='flex mt-6'>
                     <Link to='/theme2' className="mr-6 py-2 px-6 font-medium text-white bg-blue-500 rounded-lg">Voir langage C#</Link>

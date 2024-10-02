@@ -12,9 +12,9 @@ export const Theme4 = () => {
             <div className='flex flex-col justify-center items-center w-1/2'>
                 <h1 className="text-6xl font-bold">Utilisation de Blender</h1>
                 <p className="mt-4 text-xl font-medium text-center">
-                    Logiciel de modélisation 3D performant avec beaucoup de fonctionnalités. J'ai pu effectuer plusieurs projets 
-                    grâce à ce logiciel comme deux ci-dessous. J'ai puisé principalement sur le site officiel de Blender qui permet 
-                    de faire des modèles 3D basique comme complexes (Voici ci-dessous quelque uns de mes projets).
+                    Logiciel de modélisation 3D performant avec de nombreuses fonctionnalités, j'ai pu réaliser plusieurs projets grâce à ce 
+                    logiciel, dont deux exemples ci-dessous. Je me suis principalement appuyé sur le site officiel de Blender, qui permet de 
+                    créer des modèles 3D, aussi bien basiques que complexes. (Voici ci-dessous quelques-uns de mes projets.)
                 </p>
                 <div className='flex mt-6'>
                     <Link to='/theme3' className="mr-6 py-2 px-6 font-medium text-white bg-blue-500 rounded-lg">Voir intélligence artificielle</Link>

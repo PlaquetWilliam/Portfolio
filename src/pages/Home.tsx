@@ -59,7 +59,7 @@ export const Home = () => {
             <div className='flex justify-around mb-20 w-full'>
                 <div className='flex flex-col p-10 w-2/6 bg-white rounded-lg transition duration-150 ease-out hover:-rotate-2 cursor-default'>
                     <h1 className='mb-6 text-xl font-bold'>Développeur Full-Stack</h1>
-                    <p className='font-medium'>Savoir conceptualiser une application entièrement fonctionnelle et partique pour tous le monde.</p>
+                    <p className='font-medium'>Savoir conceptualiser une application entièrement fonctionnelle et pratique pour tout le monde.</p>
                 </div>
 
                 <div className='flex flex-col p-10 w-2/6 bg-white rounded-lg transition duration-150 ease-out hover:-rotate-2 cursor-default'>

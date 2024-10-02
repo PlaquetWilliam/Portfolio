@@ -17,12 +17,9 @@ export const Skills = () => {
             <div className='flex flex-col justify-center items-center w-1/2'>
                 <h1 className="text-6xl font-bold">Compétences</h1>
                 <p className="mt-4 text-xl font-medium text-center">
-                    Au cours de mon cursus, j'ai eu l'occasion de travailler sur différents projets 
-                    de développement informatique. J'ai ainsi élargi mes compétences en langages de 
-                    programmation tels que HTML, CSS, Javascript, Typescript, C#, PHP, SQL et Java mais 
-                    aussi des frameworks comme React, Vuejs, Laravel ou encore Angular. Je me suis également 
-                    familiarisé avec les méthodes agiles de gestion de projet et j'ai acquis une grande rigueur 
-                    dans mon travail.
+                    Au cours de mon cursus, j'ai eu l'occasion de travailler sur différents projets de développement informatique. J'ai ainsi élargi mes compétences 
+                    en langages de programmation tels que HTML, CSS, JavaScript, TypeScript, C#, PHP, SQL et Java, mais aussi des frameworks comme React, Vue.js, 
+                    Laravel ou encore Angular. Je me suis également familiarisé avec les méthodes agiles de gestion de projet et j'ai acquis une grande rigueur dans mon travail.
                 </p>
                 <a href={`${process.env.PUBLIC_URL}/Tableau-de-synthèse-William-Plaquet.pdf`} download="Tableau-de-synthèse-William-Plaquet.pdf">
                     <button className="mt-6 py-2 px-6 font-medium text-white bg-blue-500 rounded-lg transition duration-150 ease-out hover:bg-blue-600">Télécharger le tableau de synthèse</button>

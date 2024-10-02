@@ -58,9 +58,9 @@ export const Contact = () => {
                 <div className='flex flex-col justify-center items-center w-1/2'>
                     <h1 className="text-6xl font-bold">Comment me contacter</h1>
                     <p className="mt-4 text-xl font-medium text-center">
-                        N'hésitez pas à me contacter pour toute question ou demande d'informations. Je suis disponible pour discuter de 
-                        mes projets ou d'une éventuelle candidature. Vous pouvez me joindre directement par mail ou via le formulaire 
-                        de contact ci-dessous. Je vous remercie de votre intérêt et je vous répondrai dans les plus brefs délais.
+                        N'hésitez pas à me contacter pour toute question ou demande d'informations. Je suis disponible pour discuter de mes 
+                        projets ou d'une éventuelle candidature. Vous pouvez me joindre directement par e-mail ou via le formulaire de contact 
+                        ci-dessous. Je vous remercie de votre intérêt et je vous répondrai dans les plus brefs délais.
                     </p>
                 </div>
             </section>
