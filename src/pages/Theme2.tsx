@@ -18,8 +18,8 @@ export const Theme2 = () => {
                     (Les exemples ci-dessous ne sont pas de moi, ce sont simplement des exemples de ce que l'on peut faire avec ce moteur.)
                 </p>
                 <div className='flex mt-6'>
-                    <Link to='/theme1' className="mr-6 py-2 px-6 font-medium text-white bg-blue-500 rounded-lg">Voir développement web</Link>
-                    <Link to='/theme3' className="py-2 px-6 font-medium text-white bg-blue-500 rounded-lg">Voir intélligence artificielle</Link>
+                    <Link to='/theme1' className="mr-6 py-2 px-6 font-medium text-white bg-blue-500 rounded-lg transition duration-150 ease-out hover:bg-blue-600">Voir développement web</Link>
+                    <Link to='/theme3' className="py-2 px-6 font-medium text-white bg-blue-500 rounded-lg transition duration-150 ease-out hover:bg-blue-600">Voir intélligence artificielle</Link>
                 </div>
             </div>
         </section>

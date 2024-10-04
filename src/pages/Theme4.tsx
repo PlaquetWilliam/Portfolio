@@ -17,7 +17,7 @@ export const Theme4 = () => {
                     créer des modèles 3D, aussi bien basiques que complexes. (Voici ci-dessous quelques-uns de mes projets.)
                 </p>
                 <div className='flex mt-6'>
-                    <Link to='/theme3' className="mr-6 py-2 px-6 font-medium text-white bg-blue-500 rounded-lg">Voir intélligence artificielle</Link>
+                    <Link to='/theme3' className="mr-6 py-2 px-6 font-medium text-white bg-blue-500 rounded-lg transition duration-150 ease-out hover:bg-blue-600">Voir intélligence artificielle</Link>
                 </div>
             </div>
         </section>

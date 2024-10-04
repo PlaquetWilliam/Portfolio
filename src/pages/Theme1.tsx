@@ -18,7 +18,7 @@ export const Theme1 = () => {
                     quelques exemples de projets personnels que j'ai réalisés durant mon apprentissage dans le domaine du développement web.
                 </p>
                 <div className='flex mt-6'>
-                    <Link to='/theme2' className="py-2 px-6 font-medium text-white bg-blue-500 rounded-lg">Voir langage C#</Link>
+                    <Link to='/theme2' className="py-2 px-6 font-medium text-white bg-blue-500 rounded-lg transition duration-150 ease-out hover:bg-blue-600">Voir langage C#</Link>
                 </div>
             </div>
         </section>

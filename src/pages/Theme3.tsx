@@ -16,8 +16,8 @@ export const Theme3 = () => {
                     qui m'intéresse, non pas pour des projets professionnels mais pour des loisirs.
                 </p>
                 <div className='flex mt-6'>
-                    <Link to='/theme2' className="mr-6 py-2 px-6 font-medium text-white bg-blue-500 rounded-lg">Voir langage C#</Link>
-                    <Link to='/theme4' className="py-2 px-6 font-medium text-white bg-blue-500 rounded-lg">Voir modélisation 3D</Link>
+                    <Link to='/theme2' className="mr-6 py-2 px-6 font-medium text-white bg-blue-500 rounded-lg transition duration-150 ease-out hover:bg-blue-600">Voir langage C#</Link>
+                    <Link to='/theme4' className="py-2 px-6 font-medium text-white bg-blue-500 rounded-lg transition duration-150 ease-out hover:bg-blue-600">Voir modélisation 3D</Link>
                 </div>
             </div>
         </section>
