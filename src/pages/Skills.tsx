@@ -9,6 +9,7 @@ import Tailwind from '../img/Tailwind.png'
 import Nodejs from '../img/Nodejs.png'
 import Laravel from '../img/Laravel.png'
 import Scroll from '../img/Scroll.png'
+import Wordpress from '../img/Wordpress.png'
 
 export const Skills = () => {
     return (
@@ -92,7 +93,7 @@ export const Skills = () => {
                         <p className='w-full h-2/4 font-medium'>React</p>
                         <div className='w-full h-2/4'>
                             <div className='w-full h-full bg-[#d9d9d9] rounded-full'>
-                                <div className='w-10/12 h-full bg-[#63dbfc] rounded-full'></div>
+                                <div className='w-11/12 h-full bg-[#63dbfc] rounded-full'></div>
                             </div>
                         </div>
                     </div>
@@ -153,6 +154,21 @@ export const Skills = () => {
                         <div className='w-full h-2/4'>
                             <div className='w-full h-full bg-[#d9d9d9] rounded-full'>
                                 <div className='w-7/12 h-full bg-[#fb473b] rounded-full'></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className='flex my-4'>
+                    <div className='flex justify-center w-1/5'>
+                        <img src={ Wordpress } className='w-14 h-14'/>
+                    </div>
+
+                    <div className='w-4/5'>
+                        <p className='w-full h-2/4 font-medium'>Wordpress</p>
+                        <div className='w-full h-2/4'>
+                            <div className='w-full h-full bg-[#d9d9d9] rounded-full'>
+                                <div className='w-11/12 h-full bg-[#21759b] rounded-full'></div>
                             </div>
                         </div>
                     </div>

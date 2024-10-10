@@ -6,7 +6,6 @@ import { Routes, Route, NavLink } from 'react-router-dom';
 import { Theme1 } from './pages/Theme1';
 import { Theme2 } from './pages/Theme2';
 import { Theme3 } from './pages/Theme3';
-import { Theme4 } from './pages/Theme4';
 
 function App() {
   return (
@@ -30,7 +29,6 @@ function App() {
         <Route path='/theme1' element={ <Theme1/> }/>
         <Route path='/theme2' element={ <Theme2/> }/>
         <Route path='/theme3' element={ <Theme3/> }/>
-        <Route path='/theme4' element={ <Theme4/> }/>
       </Routes>
     </div>
   );
